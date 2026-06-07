@@ -1,4 +1,4 @@
-# Stackwise
+# Moola
 
 **The Duolingo of personal finance.** 5 minutes a day to money mastery — budgeting,
 credit, investing, and home buying, learned through streaks, XP, and bite-sized
@@ -37,7 +37,7 @@ This repo is Vercel-native — no config needed. To connect it (one-time):
 4. Click **Deploy**.
 
 After that, **every `git push` to `main` auto-deploys to production**, and every
-branch / PR gets its own preview URL. To point `stackwise.app` at it, add the
+branch / PR gets its own preview URL. To point `moola.app` at it, add the
 domain under **Project → Settings → Domains**.
 
 ---

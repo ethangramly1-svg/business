@@ -10,13 +10,13 @@ const nunito = Nunito({
   display: "swap",
 });
 
-const SITE_URL = "https://stackwise.app";
+const SITE_URL = "https://moola.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Stackwise — The Duolingo of Personal Finance",
-    template: "%s · Stackwise",
+    default: "Moola — The Duolingo of Personal Finance",
+    template: "%s · Moola",
   },
   description:
     "5 minutes a day to money mastery. Budgeting, credit, investing, and home buying — learned through streaks, XP, and bite-sized quizzes you'll actually want to finish.",
@@ -29,18 +29,18 @@ export const metadata: Metadata = {
     "money app",
     "gamified learning",
   ],
-  authors: [{ name: "Stackwise" }],
+  authors: [{ name: "Moola" }],
   openGraph: {
     type: "website",
     url: SITE_URL,
-    siteName: "Stackwise",
-    title: "Stackwise — The Duolingo of Personal Finance",
+    siteName: "Moola",
+    title: "Moola — The Duolingo of Personal Finance",
     description:
       "5 minutes a day to money mastery. Money skills through streaks, XP, and bite-sized quizzes — finally fun.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Stackwise — The Duolingo of Personal Finance",
+    title: "Moola — The Duolingo of Personal Finance",
     description:
       "5 minutes a day to money mastery. Money skills through streaks, XP, and bite-sized quizzes — finally fun.",
   },

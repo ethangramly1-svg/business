@@ -34,7 +34,7 @@ export function SignupModal({
           onClick={onClose}
           role="dialog"
           aria-modal="true"
-          aria-label="Sign up for Stackwise"
+          aria-label="Sign up for Moola"
         >
           <div className="absolute inset-0 bg-ink/55 backdrop-blur-md" />
           <motion.div

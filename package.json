@@ -1,8 +1,8 @@
 {
-  "name": "stackwise",
+  "name": "moola",
   "version": "0.1.0",
   "private": true,
-  "description": "Stackwise — the Duolingo of personal finance. 5 minutes a day to money mastery.",
+  "description": "Moola — the Duolingo of personal finance. 5 minutes a day to money mastery.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

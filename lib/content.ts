@@ -1,5 +1,5 @@
 /* ============================================================
-   STACKWISE CONTENT
+   MOOLA CONTENT
    Single source of truth for all marketing + lesson copy.
    Stats keep their cited sources from the project plan.
    Social proof uses honest early-access placeholders —
@@ -196,7 +196,7 @@ export const opportunity = [
   {
     num: "0",
     body: "Competitors with Duolingo-grade product craft in personal finance. Modules exist — but none owns the consumer brand or the fun-first loop.",
-    source: "Source: Stackwise market analysis",
+    source: "Source: Moola market analysis",
   },
 ] as const;
 
@@ -221,7 +221,7 @@ export const pricing = {
     cta: "Start for free",
   },
   plus: {
-    name: "Stackwise Plus",
+    name: "Moola Plus",
     price: "$9.99",
     cadence: "/ month",
     desc: "No limits. The full curriculum, every protection, and tools that make the lessons real.",

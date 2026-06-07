@@ -15,7 +15,7 @@ export function Proof() {
               are telling us.
             </>
           }
-          sub="Stackwise is in early access. These reflect the kind of feedback we hear from beta learners — named stories arrive at public launch."
+          sub="Moola is in early access. These reflect the kind of feedback we hear from beta learners — named stories arrive at public launch."
         />
 
         <div className="mt-16 grid gap-5 md:grid-cols-3">

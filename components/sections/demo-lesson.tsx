@@ -93,7 +93,7 @@ export function DemoLesson() {
               Then decide.
             </>
           }
-          sub="Experience the Stackwise loop before you commit to anything — ever. The product IS the pitch."
+          sub="Experience the Moola loop before you commit to anything — ever. The product IS the pitch."
         />
 
         <Reveal>

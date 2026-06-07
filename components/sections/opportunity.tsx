@@ -7,7 +7,7 @@ export function Opportunity() {
     <section className="bg-ink py-24 text-white sm:py-32">
       <div className="mx-auto max-w-5xl px-6">
         <SectionHeader
-          tag="📊 The case for Stackwise"
+          tag="📊 The case for Moola"
           dark
           title={
             <>

@@ -62,7 +62,7 @@ export function Footer() {
       </div>
 
       <div className="mx-auto mt-12 flex max-w-6xl flex-wrap justify-between gap-3 border-t border-white/10 pt-6 text-[0.75rem] font-semibold">
-        <span>© 2026 Stackwise. Educational content only. Not financial advice.</span>
+        <span>© 2026 Moola. Educational content only. Not financial advice.</span>
         <span>Built for the financially curious.</span>
       </div>
     </footer>
