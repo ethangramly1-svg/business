@@ -10,7 +10,12 @@ const nunito = Nunito({
   display: "swap",
 });
 
-const SITE_URL = "https://moola.app";
+// Canonical/OG URL auto-tracks the Vercel production domain (e.g.
+// moola.vercel.app, or a custom domain later) — no hardcoded URL to maintain.
+// Vercel sets VERCEL_PROJECT_PRODUCTION_URL automatically on every deploy.
+const SITE_URL = process.env.VERCEL_PROJECT_PRODUCTION_URL
+  ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+  : "http://localhost:3000";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),

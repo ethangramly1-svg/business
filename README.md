@@ -37,8 +37,14 @@ This repo is Vercel-native — no config needed. To connect it (one-time):
 4. Click **Deploy**.
 
 After that, **every `git push` to `main` auto-deploys to production**, and every
-branch / PR gets its own preview URL. To point `moola.app` at it, add the
-domain under **Project → Settings → Domains**.
+branch / PR gets its own preview URL.
+
+**Free `moola.vercel.app` URL:** rename the Vercel project to `moola`
+(**Project → Settings → General → Project Name**). The production URL becomes
+`https://moola.vercel.app`. The site's canonical/OG metadata reads Vercel's
+`VERCEL_PROJECT_PRODUCTION_URL` env var automatically (see `app/layout.tsx`), so
+it always matches the live URL — no code change needed if you later add a custom
+domain.
 
 ---
 
