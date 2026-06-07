@@ -1,0 +1,4 @@
+# Allow sharp (Next.js image optimizer) to run its native build script.
+# pnpm 11 reads build-approval settings from here, not package.json.
+allowBuilds:
+  sharp: true
